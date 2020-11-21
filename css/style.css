@@ -1,0 +1,123 @@
+body{
+    font-size: 18px;
+}
+.dropdown-menu>li>a {
+    padding: 6px 70px;
+}
+#loginLogo{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#loginForm{
+    width: 500px;
+    left: 50%;
+    top: 30%;
+    position: absolute;
+    -webkit-transform: translate3d(-50%, -50%, 0);
+    -moz-transform: translate3d(-50%, -50%, 0);
+    transform: translate3d(-50%, -50%, 0);
+}
+#loginForm label{
+    color: orange;
+}
+.welcome-message{
+    color: orange;
+}
+#home a{
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+    /*float: right;*/
+}
+#home a:hover{
+    text-decoration: none;
+}
+#home .table{
+    margin-top: 50px;
+    font-size: 25px;
+}
+#home .pagination span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#home .pagination{
+    float: right;
+}
+.fa, .fas{
+    float: right;
+    margin-left: 25px;
+}
+.fa-pencil-alt{
+    color: #cf9b0e;
+}
+.fa-trash-alt{
+    color: #db1a1a;
+}
+#allPosts td a{
+    float: right;
+    color: orange;
+}
+#allPosts td a:hover{
+    text-decoration: none;
+    font-weight: bold;
+}
+#singlePost .gallery{
+    margin-top: 45px;
+}
+#singlePost h1{
+    font-size: 45px;
+}
+#singlePost p{
+    font-size: 20px;
+    margin-top: 15px;
+}
+#singlePost a{
+    color: orange;
+    font-weight: bold;
+    font-size: 19px;
+    border-bottom: 1px solid orange;
+}
+#singlePost a:hover{
+    text-decoration: none;
+}
+#createPage a{
+    color: white;
+    font-weight: bold;
+}
+#createPage a:hover{
+    text-decoration: none;
+}
+#createPage button{
+    font-weight: bold;
+}
+.btn-dark{
+    background-color: #363636;
+}
+.curlink{
+    font-weight: bold;
+    font-size: 20px;
+}
+#editPage a{
+    color: white;
+    font-weight: bold;
+    font-size: 19px;
+    border: none;
+}
+#editPage .gallery img{
+    width: 100%;
+}
+#editPage form .btn a{
+    color: white;
+}
+#editPage form .btn a:hover{
+    text-decoration: none;
+}
+#editPage .gallery a{
+    margin: 0px;
+    margin-top: 10px;
+}
+#editPage form button{
+    font-size: 19px !important;
+    font-weight: bold;
+}
